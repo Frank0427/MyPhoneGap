@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>星巴克咖啡</title>
+   <link rel="stylesheet" href="css/themes/default/jquery.mobile-1.2.0.css" />
+   <link rel="stylesheet" href="css/jqm-docs.css" />
+
+   <script src="js/jquery.js"></script>
+
+   <script src="js/jqm-docs.js"></script>
+
+   <script src="js/jquery.mobile-1.2.0.js"></script>
+
+</head>
+<body>
+   <div data-role="page" class="type-interior">
+      <div data-role="header" data-theme="f">
+         <h1>
+            星巴克咖啡</h1>
+         <a href="index.html" data-icon="home" data-direction="reverse" data-iconpos="notext">首页</a> <a href="#popupMap"
+            data-rel="popup" data-position-to="window" data-role="button" data-icon="search">
+            地图</a>
+      </div>
+      <!-- /header -->
+      <div data-role="content">
+         <div class="content-primary">
+            <h2>
+               星巴克咖啡</h2>
+            <p>
+               “遍布上海”的“星巴克”，它存在的意义就好像“便利店”——“统一”的装修、“统一”的服务、“统一”的食物，永远都能在“困顿的午后”及时地满足你“味觉和精神上的需求”。最爱滨江大道店，喜欢夏日的夜里懒散地坐在“露天位”上，任凭抹茶星冰乐“清淡而不失个性的口感”缠绕舌尖，看“黄浦江来来往往的船只”，白天的烦恼便“暂时忘却”了。</p>
+            <p>地址：淮海中路381号 中环广场  ——2号出口步行200米</p>
+            <p>电话：021-63916277</p>
+            <p>
+               <a href="#popupPhoto1" data-rel="popup" data-position-to="window" data-inline="true"
+                  data-transition="fade"><img src="http://i3.dpfile.com/pc/3652e2366646e577ba7ab78edc879084(120o90)/thumb.jpg" /></a>
+               <a href="#popupPhoto2" data-rel="popup" data-position-to="window" data-inline="true"
+                  data-transition="fade"><img src="http://i2.dpfile.com/pc/b866a1e71c124762bc5ba8c6ed1fb835(120o90)/thumb.jpg" /></a>
+               <a href="#popupPhoto3" data-rel="popup" data-position-to="window" data-inline="true"
+                  data-transition="fade"><img src="http://i3.dpfile.com/pc/0fd7f4c0cce21ddd78106adb39931c08(120o90)/thumb.jpg" /></a>
+               <a href="#popupPhoto4" data-rel="popup" data-position-to="window" data-inline="true"
+                  data-transition="fade"><img src="http://i2.dpfile.com/pc/be3c738bf358e25aa6847653a74aaea5(120o90)/thumb.jpg" /></a>
+            </p>
+         </div>
+         <!--/content-primary -->
+         <div class="content-secondary">
+            <div data-role="collapsible" data-collapsed="true" data-theme="b" data-content-theme="d">
+               <h3>
+                  餐饮</h3>
+               <ul data-role="listview" data-theme="c" data-dividertheme="d">
+                  <li><a href="C1-3.html">望湘园</a></li>
+                  <li><a href="C1-1.html">广州蕉叶(香港广场店)</a></li>
+                  <li><a href="C1-2.html">比萨马上诺(新天地店)</a></li>
+                  <li data-theme="a"><a href="C1-5.html">星巴克咖啡</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <!-- /content -->
+      <!-- Dialogs -->
+      <div data-role="popup" id="popupPhoto1" data-overlay-theme="a" data-theme="d" data-corners="false">
+         <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete"
+            data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="http://i2.dpfile.com/pc/3652e2366646e577ba7ab78edc879084(700x700)/thumb.jpg"
+               alt="星巴克咖啡环境">
+      </div>
+      <div data-role="popup" id="popupPhoto2" data-overlay-theme="a" data-theme="d" data-corners="false">
+         <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete"
+            data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="http://i3.dpfile.com/pc/b866a1e71c124762bc5ba8c6ed1fb835(700x700)/thumb.jpg"
+               alt="星巴克咖啡环境">
+      </div>
+      <div data-role="popup" id="popupPhoto3" data-overlay-theme="a" data-theme="d" data-corners="false">
+         <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete"
+            data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="http://i1.dpfile.com/pc/0fd7f4c0cce21ddd78106adb39931c08(700x700)/thumb.jpg"
+               alt="">
+      </div>
+      <div data-role="popup" id="popupPhoto4" data-overlay-theme="a" data-theme="d" data-corners="false">
+         <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete"
+            data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="http://i1.dpfile.com/pc/be3c738bf358e25aa6847653a74aaea5(700x700)/thumb.jpg"
+               alt="红樱桃芝士蛋糕">
+      </div>
+      <div data-role="popup" id="popupMap" data-overlay-theme="a" data-theme="a" data-corners="false"
+         data-tolerance="15,15">
+         <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete"
+            data-iconpos="notext" class="ui-btn-right">Close</a>
+         <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://ditu.google.com/maps?f=q&amp;source=s_q&amp;hl=zh-CN&amp;geocode=&amp;q=%E6%98%9F%E5%B7%B4%E5%85%8B%E4%B8%AD%E7%8E%AF%E5%BA%97&amp;aq=&amp;sll=31.222177,121.47282&amp;sspn=0.001979,0.002411&amp;t=m&amp;brcurrent=3,0x35b27069e83e26b9:0xd4d7151158312aff,0,0x35b270634e678b93:0x9bab911934f9a6c2%3B5,0,0&amp;ie=UTF8&amp;hq=%E6%98%9F%E5%B7%B4%E5%85%8B%E4%B8%AD%E7%8E%AF%E5%BA%97&amp;hnear=&amp;cid=15181249088900956097&amp;ll=31.222374,121.473073&amp;spn=0.001101,0.001717&amp;z=19&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://ditu.google.com/maps?f=q&amp;source=embed&amp;hl=zh-CN&amp;geocode=&amp;q=%E6%98%9F%E5%B7%B4%E5%85%8B%E4%B8%AD%E7%8E%AF%E5%BA%97&amp;aq=&amp;sll=31.222177,121.47282&amp;sspn=0.001979,0.002411&amp;t=m&amp;brcurrent=3,0x35b27069e83e26b9:0xd4d7151158312aff,0,0x35b270634e678b93:0x9bab911934f9a6c2%3B5,0,0&amp;ie=UTF8&amp;hq=%E6%98%9F%E5%B7%B4%E5%85%8B%E4%B8%AD%E7%8E%AF%E5%BA%97&amp;hnear=&amp;cid=15181249088900956097&amp;ll=31.222374,121.473073&amp;spn=0.001101,0.001717&amp;z=19&amp;iwloc=A" style="color:#0000FF;text-align:left">查看大图</a></small>
+      </div>
+      <!-- /Dialogs -->
+      <div data-role="footer" class="footer-docs" data-theme="c">
+         <p style="text-align: center">
+            武汉地铁集团 &copy; 2010-2012</p>
+      </div>
+   </div>
+   <!-- /page -->
+</body>
+</html>

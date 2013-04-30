@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>望湘园</title>
+   <link rel="stylesheet" href="css/themes/default/jquery.mobile-1.2.0.css" />
+   <link rel="stylesheet" href="css/jqm-docs.css" />
+
+   <script src="js/jquery.js"></script>
+
+   <script src="js/jqm-docs.js"></script>
+
+   <script src="js/jquery.mobile-1.2.0.js"></script>
+
+</head>
+<body>
+   <div data-role="page" class="type-interior">
+      <div data-role="header" data-theme="f">
+         <h1>
+            望湘园</h1>
+         <a href="index.html" data-icon="home" data-direction="reverse" data-iconpos="notext">首页</a> <a href="#popupMap"
+            data-rel="popup" data-position-to="window" data-role="button" data-icon="search">
+            地图</a>
+      </div>
+      <!-- /header -->
+      <div data-role="content">
+         <div class="content-primary">
+            <h2>
+               望湘园</h2>
+            <p>
+               望湘园品牌成立于2002年6月，是一家专门经营中端精品湘菜的餐饮企业。公司秉承以“食”为尊的理念，在制作精品湘菜方面有独到的见解，在每一款菜肴的出品上都延续着湘菜原有的传统风味，并融入了适合上海及周边地区复合式口味及创新做法，为满足广大顾客多样化的需求，不懈努力。</p>
+            <p>地址：淮海中路138号无限度广场4楼(淮海中路龙门路) ——2号出口步行500米</p>
+            <p>电话：021-63756779</p>
+            <p>
+               <a href="#popupPhoto1" data-rel="popup" data-position-to="window" data-inline="true"
+                  data-transition="fade"><img src="http://i3.dpfile.com/pc/3df1035c5c012e7d51b1605cdf10f2ab(120o90)/thumb.jpg" /></a>
+               <a href="#popupPhoto2" data-rel="popup" data-position-to="window" data-inline="true"
+                  data-transition="fade"><img src="http://i2.dpfile.com/pc/5fb3b8b75ed7ddcbea5a92cce8251b04(120o90)/thumb.jpg" /></a>
+               <a href="#popupPhoto3" data-rel="popup" data-position-to="window" data-inline="true"
+                  data-transition="fade"><img src="http://i1.dpfile.com/pc/1ec11f4aa27e54b2c86488c10801d0e5(120o90)/thumb.jpg" /></a>
+               <a href="#popupPhoto4" data-rel="popup" data-position-to="window" data-inline="true"
+                  data-transition="fade"><img src="http://i1.dpfile.com/pc/b63ddc831f98d39411e566744763d7d3(120o90)/thumb.jpg" /></a>
+            </p>
+         </div>
+         <!--/content-primary -->
+         <div class="content-secondary">
+            <div data-role="collapsible" data-collapsed="true" data-theme="b" data-content-theme="d">
+               <h3>
+                  餐饮</h3>
+               <ul data-role="listview" data-theme="c" data-dividertheme="d">
+                  <li data-theme="a"><a href="C1-3.html">望湘园</a></li>
+                  <li><a href="C1-1.html">广州蕉叶(香港广场店)</a></li>
+                  <li><a href="C1-2.html">比萨马上诺(新天地店)</a></li>
+                  <li><a href="C1-5.html">星巴克咖啡</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <!-- /content -->
+      <!-- Dialogs -->
+      <div data-role="popup" id="popupPhoto1" data-overlay-theme="a" data-theme="d" data-corners="false">
+         <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete"
+            data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="http://i2.dpfile.com/pc/3df1035c5c012e7d51b1605cdf10f2ab(700x700)/thumb.jpg"
+               alt="望湘园就餐环境">
+      </div>
+      <div data-role="popup" id="popupPhoto2" data-overlay-theme="a" data-theme="d" data-corners="false">
+         <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete"
+            data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="http://i1.dpfile.com/pc/5fb3b8b75ed7ddcbea5a92cce8251b04(700x700)/thumb.jpg"
+               alt="望湘园就餐环境">
+      </div>
+      <div data-role="popup" id="popupPhoto3" data-overlay-theme="a" data-theme="d" data-corners="false">
+         <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete"
+            data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="http://i2.dpfile.com/pc/1ec11f4aa27e54b2c86488c10801d0e5(700x700)/thumb.jpg"
+               alt="榄菜肉沫四季豆">
+      </div>
+      <div data-role="popup" id="popupPhoto4" data-overlay-theme="a" data-theme="d" data-corners="false">
+         <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete"
+            data-iconpos="notext" class="ui-btn-right">Close</a><img class="popphoto" src="http://i3.dpfile.com/pc/b63ddc831f98d39411e566744763d7d3(700x700)/thumb.jpg"
+               alt="十里香牛肉">
+      </div>
+      <div data-role="popup" id="popupMap" data-overlay-theme="a" data-theme="a" data-corners="false"
+         data-tolerance="15,15">
+         <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete"
+            data-iconpos="notext" class="ui-btn-right">Close</a>
+         <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://ditu.google.com/maps?f=q&amp;source=s_q&amp;hl=zh-CN&amp;geocode=&amp;q=%E6%9C%9B%E6%B9%98%E5%9B%AD(%E6%97%A0%E9%99%90%E5%BA%A6%E5%BA%97)&amp;aq=&amp;sll=31.223493,121.475824&amp;sspn=0.007918,0.009645&amp;t=m&amp;brcurrent=3,0x35b27069e83e26b9:0xd4d7151158312aff,0,0x35b270634e678b93:0x9bab911934f9a6c2%3B5,0,0&amp;ie=UTF8&amp;hq=%E6%9C%9B%E6%B9%98%E5%9B%AD&amp;hnear=&amp;cid=9858904891768282647&amp;ll=31.226124,121.478062&amp;spn=0.008808,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://ditu.google.com/maps?f=q&amp;source=embed&amp;hl=zh-CN&amp;geocode=&amp;q=%E6%9C%9B%E6%B9%98%E5%9B%AD(%E6%97%A0%E9%99%90%E5%BA%A6%E5%BA%97)&amp;aq=&amp;sll=31.223493,121.475824&amp;sspn=0.007918,0.009645&amp;t=m&amp;brcurrent=3,0x35b27069e83e26b9:0xd4d7151158312aff,0,0x35b270634e678b93:0x9bab911934f9a6c2%3B5,0,0&amp;ie=UTF8&amp;hq=%E6%9C%9B%E6%B9%98%E5%9B%AD&amp;hnear=&amp;cid=9858904891768282647&amp;ll=31.226124,121.478062&amp;spn=0.008808,0.013733&amp;z=16&amp;iwloc=A" style="color:#0000FF;text-align:left">查看大图</a></small>
+      </div>
+      <!-- /Dialogs -->
+      <div data-role="footer" class="footer-docs" data-theme="c">
+         <p style="text-align: center">
+            武汉地铁集团 &copy; 2010-2012</p>
+      </div>
+   </div>
+   <!-- /page -->
+</body>
+</html>
